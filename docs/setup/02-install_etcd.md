@@ -34,7 +34,7 @@ kuberntes 集群使用 etcd 存储所有数据，是最重要的组件之一，�
   ]
 }
 ```
-+ etcd使用对等证书，hosts 字段必须指定授权使用该证书的 etcd 节点 IP，这里枚举了所有ectd节点的地址
++ etcd使用对等证书，hosts 字段必须指定授权使用该证书的 etcd 节点 IP，这里枚举了所有etcd节点的地址
 
 ###  创建etcd 服务文件 [etcd.service.j2](../../roles/etcd/templates/etcd.service.j2)
 
