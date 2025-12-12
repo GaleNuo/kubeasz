@@ -8,7 +8,7 @@ kuberntes 集群使用 etcd 存储所有数据，是最重要的组件之一，�
 
 注意：证书是在部署节点创建好之后推送到目标etcd节点上去的，以增加ca证书的安全性
 
-创建ectd证书请求 [etcd-csr.json.j2](../../roles/etcd/templates/etcd-csr.json.j2)
+创建etcd证书请求 [etcd-csr.json.j2](../../roles/etcd/templates/etcd-csr.json.j2)
 
 ``` bash
 {
